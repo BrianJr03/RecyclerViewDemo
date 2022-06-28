@@ -1,15 +1,13 @@
-package com.example.recyclerviewdemo
+package com.example.recyclerviewdemo.contacts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import androidx.annotation.DrawableRes
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.recyclerviewdemo.R
 import com.example.recyclerviewdemo.databinding.ActivityContactsScreenBinding
-import kotlinx.android.synthetic.main.contact.*
-import java.lang.reflect.Array
 
 class ContactsActivity : AppCompatActivity() {
     private lateinit var binding: ActivityContactsScreenBinding
@@ -25,7 +23,7 @@ class ContactsActivity : AppCompatActivity() {
     }
 
     private fun setAdapter() {
-        contactAdapter = ContactAdapter(contacts)
+        contactAdapter = ContactAdapter(this, contacts)
         binding.apply {
             contactRecyclerView.layoutManager = LinearLayoutManager(this@ContactsActivity)
             contactRecyclerView.adapter = contactAdapter
@@ -71,15 +69,15 @@ class ContactsActivity : AppCompatActivity() {
     private fun prepareData() {
         contacts = ArrayList()
         contacts.apply {
-//            for (i in 0..16) {
+            for (i in 1..15) {
                 add(
                     Contact(
-                        name = "Contact $1",
+                        name = "Contact $i",
                         number = "(132) 234-4556",
                         pfp = R.drawable.profile
                     )
                 )
-//            }
+            }
 
         }
     }

@@ -1,4 +1,4 @@
-package com.example.recyclerviewdemo
+package com.example.recyclerviewdemo.contacts
 
 import java.io.Serializable
 import androidx.annotation.DrawableRes

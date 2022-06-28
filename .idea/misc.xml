@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/drawable-v24/input_message_shape.xml" value="0.1" />
+        <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/drawable-v24/sender_shape.xml" value="0.1" />
+        <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/activity_contact_info.xml" value="0.14221014492753623" />
         <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/activity_contacts_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/activity_gmail_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
@@ -11,6 +15,10 @@
         <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/contact.xml" value="0.33" />
         <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/gmail_item.xml" value="0.203125" />
         <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/note.xml" value="0.15" />
+        <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/receiver.xml" value="0.1" />
+        <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/recipient.xml" value="0.1" />
+        <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/sender.xml" value="0.22" />
+        <entry key="..\:/Users/walte/OneDrive/Desktop/training/app_practice/RecyclerViewDemo/app/src/main/res/layout/sender_button_shape.xml" value="0.1" />
       </map>
     </option>
   </component>

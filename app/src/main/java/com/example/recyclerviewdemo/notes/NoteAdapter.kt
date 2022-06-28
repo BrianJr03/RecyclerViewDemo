@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import android.view.LayoutInflater
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclerviewdemo.databinding.NoteBinding
+import kotlinx.android.synthetic.main.note.view.*
 
 class NoteAdapter(private val notes: List<Note>) :
     RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {
@@ -27,10 +28,10 @@ class NoteAdapter(private val notes: List<Note>) :
         }
     }
 
-    inner class NoteViewHolder(v: View) : RecyclerView.ViewHolder(v) {
+    inner class NoteViewHolder(private val v: View) : RecyclerView.ViewHolder(v) {
         fun bind(note: Note) {
-            binding.noteTitle.text = note.title
-            binding.noteImg.setImageResource(note.image)
+            v.noteTitle.text = note.title
+            v.noteImg.setImageResource(note.image)
         }
     }
 }
